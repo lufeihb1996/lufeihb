@@ -2,6 +2,21 @@
 
 This repository contains a minimal Spring Boot setup.
 
+## Blog Management System
+
+The project now includes a simple blog backend built with Spring Boot,
+MyBatis-Plus and a Vue frontend under `demo/mydemo`. CRUD endpoints are
+available under `/posts` and data is stored in a MySQL database. Update
+`src/main/resources/application.properties` with your MySQL credentials
+before running the application.
+
+To start the frontend, run the following commands inside `demo/mydemo`:
+
+```bash
+npm install
+npm run dev
+```
+
 ## Prerequisites
 
 - Java 17 or later
